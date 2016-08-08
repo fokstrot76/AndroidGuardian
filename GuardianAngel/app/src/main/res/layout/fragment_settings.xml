@@ -1,0 +1,139 @@
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/myCoordinatorLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WelcomeLabel"
+        android:id="@+id/welcomeLabel"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userLabel"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/welcomeLabel"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userLabel"
+        android:layout_centerHorizontal="true"
+        android:background="#8ec8e5"
+        android:id="@+id/linearLayout4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AlarmLabel"
+            android:id="@+id/AlarmLabel"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#020000"
+            android:textStyle="bold"
+            android:padding="10sp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BoxShaking"
+            android:id="@+id/checkBoxShaking"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BoxScreaming"
+            android:id="@+id/checkBoxScreaming"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BoxPressing"
+            android:id="@+id/checkBoxPressing"
+            android:textSize="25sp"
+            android:layout_marginBottom="5sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_centerHorizontal="true"
+        android:background="#05470e"
+        android:id="@+id/linearLayout5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/GuardianLabel"
+            android:id="@+id/GuardiansLabel"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:id="@+id/listView"
+            android:layout_margin="10sp"
+            android:background="#a2f693" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonAddGuardian"
+            android:id="@+id/buttonAddGuardian"
+            android:layout_gravity="center_horizontal"
+            android:background="#64b955"
+            android:textColor="#770505"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10sp" />
+
+    </LinearLayout>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

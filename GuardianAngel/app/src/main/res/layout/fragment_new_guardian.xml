@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.piotr.guardianangel.NewGuardianFragment"
+    android:background="#020202">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AddGuardianLabel"
+        android:id="@+id/GuardianLabel"
+        android:padding="10sp"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GuardianLabel"
+        android:layout_alignParentEnd="true"
+        android:background="#e9dfdf"
+        android:layout_margin="10dp"
+        android:id="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/UserLabel"
+            android:id="@+id/NameGardianLabel"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#020202" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/newGuardianUsername"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textColor="#020202"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PhoneLabel"
+            android:id="@+id/PhoneLabel"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#020202" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/guardianPhone"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textColor="#020202"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:phoneNumber="true"
+            android:text="@string/PhoneStartZero" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonRegistration"
+        android:id="@+id/buttonAddGuardian"
+        android:background="@drawable/button_oval"
+        android:padding="20sp"
+        android:textColor="#910202"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/buttonCancel"
+        android:textColor="#ffffff"
+        android:background="#ff0000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

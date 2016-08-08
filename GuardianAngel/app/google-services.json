@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_id": "guardianangel-3391e",
+    "project_number": "913848435805",
+    "name": "GuardianAngel"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913848435805:android:6074f8b7b7b15329",
+        "client_id": "android:com.example.piotr.guardianangel",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.piotr.guardianangel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

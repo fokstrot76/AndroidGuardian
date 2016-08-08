@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.piotr.guardianangel</OriginalElement>
+  <nodes>
+    <node x="44.87956204379566" y="609.442822384428">com.example.piotr.guardianangel.GCM.Content</node>
+    <node x="-120.46350364963519" y="775.6532846715328">com.example.piotr.guardianangel.ReadSMS.Monitor</node>
+    <node x="1050.6909975669103" y="307.23236009732375">com.example.piotr.guardianangel.SettingsFragment.RemoveGuardian</node>
+    <node x="533.0" y="-30.0">com.example.piotr.guardianangel.NoiseAndSpeechRecognizer.SpeechService</node>
+    <node x="-35.20681265206804" y="355.1447688564476">com.example.piotr.guardianangel.LoginFragment</node>
+    <node x="1051.816301703163" y="488.7858880778589">com.example.piotr.guardianangel.SettingsFragment.UpdateGuardian</node>
+    <node x="828.0" y="-75.81508515815085">com.example.piotr.guardianangel.NoiseAndSpeechRecognizer.SpeechService.SpeechRecognitionListener</node>
+    <node x="528.3613138686133" y="255.00729927007308">com.example.piotr.guardianangel.SettingsFragment</node>
+    <node x="-342.4501216545011" y="384.11922141119214">com.example.piotr.guardianangel.MainActivity</node>
+    <node x="-234.0" y="-51.0">com.example.piotr.guardianangel.NoiseAndSpeechRecognizer.SoundLevelService</node>
+    <node x="-454.38564476885654" y="128.0608272506081">com.example.piotr.guardianangel.RegistrationFragment</node>
+    <node x="751.6654501216544" y="664.7262773722628">com.example.piotr.guardianangel.NewGuardianFragment</node>
+    <node x="-422.03163017031625" y="525.9671532846714">com.example.piotr.guardianangel.ShakePackage.ShakeService</node>
+    <node x="353.5875912408758" y="607.1812652068127">com.example.piotr.guardianangel.GCM.SendMessage</node>
+    <node x="-415.1508515815087" y="767.4817518248176">com.example.piotr.guardianangel.ReadSMS.DialogActivity</node>
+    <node x="65.51581508515812" y="-75.5571776155718">com.example.piotr.guardianangel.NoiseAndSpeechRecognizer.NoiseAlert</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.piotr.guardianangel.NoiseAndSpeechRecognizer.SpeechService" target="com.example.piotr.guardianangel.NoiseAndSpeechRecognizer.SpeechService.SpeechRecognitionListener">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.example.piotr.guardianangel.NoiseAndSpeechRecognizer.SpeechService.SpeechRecognitionListener" target="com.example.piotr.guardianangel.NoiseAndSpeechRecognizer.SpeechService">
+      <point x="0.0" y="-139.0" />
+      <point x="0.0" y="58.0" />
+    </edge>
+    <edge source="com.example.piotr.guardianangel.MainActivity" target="com.example.piotr.guardianangel.RegistrationFragment">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.example.piotr.guardianangel.NewGuardianFragment" target="com.example.piotr.guardianangel.SettingsFragment">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.example.piotr.guardianangel.NoiseAndSpeechRecognizer.NoiseAlert" target="com.example.piotr.guardianangel.NoiseAndSpeechRecognizer.SoundLevelService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.example.piotr.guardianangel.NoiseAndSpeechRecognizer.SpeechService" target="com.example.piotr.guardianangel.NoiseAndSpeechRecognizer.NoiseAlert">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.example.piotr.guardianangel.LoginFragment" target="com.example.piotr.guardianangel.SettingsFragment">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.example.piotr.guardianangel.SettingsFragment" target="com.example.piotr.guardianangel.NewGuardianFragment">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.example.piotr.guardianangel.SettingsFragment" target="com.example.piotr.guardianangel.SettingsFragment.UpdateGuardian">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.example.piotr.guardianangel.GCM.SendMessage" target="com.example.piotr.guardianangel.GCM.Content">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.example.piotr.guardianangel.MainActivity" target="com.example.piotr.guardianangel.LoginFragment">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.example.piotr.guardianangel.SettingsFragment" target="com.example.piotr.guardianangel.SettingsFragment.RemoveGuardian">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.example.piotr.guardianangel.SettingsFragment.UpdateGuardian" target="com.example.piotr.guardianangel.NewGuardianFragment">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.example.piotr.guardianangel.SettingsFragment.RemoveGuardian" target="com.example.piotr.guardianangel.SettingsFragment">
+      <point x="0.0" y="-31.0" />
+      <point x="547.0" y="330.0" />
+      <point x="550.75" y="330.0" />
+      <point x="-96.75" y="152.5" />
+    </edge>
+    <edge source="com.example.piotr.guardianangel.RegistrationFragment" target="com.example.piotr.guardianangel.LoginFragment">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.example.piotr.guardianangel.SettingsFragment.UpdateGuardian" target="com.example.piotr.guardianangel.SettingsFragment">
+      <point x="0.0" y="-31.0" />
+      <point x="748.0" y="330.0" />
+      <point x="744.25" y="330.0" />
+      <point x="96.75" y="152.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8553590010405827" x="398.5" y="394.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

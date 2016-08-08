@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">GuardianAngel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Registration">Registration</string>
+    <string name="Rejestracja">Rejestracja</string>
+    <string name="UserLabel">UserName</string>
+    <string name="Nazwa">Nazwa</string>
+    <string name="UserHintReg">minimum 5 characters</string>
+    <string name="Podpowiedź">minimum 5 znaków</string>
+    <string name="PasswordLabel">Password</string>
+    <string name="Hasło">Hasło</string>
+    <string name="Password2Hint">reapet password</string>
+    <string name="PodpowiedźPowtórz">Powtórz Hasło</string>
+    <string name="ButtonRegistration">Submit</string>
+    <string name="PrzyciskSubmit">Wyślij</string>
+    <string name="LoginLabel">Log in</string>
+    <string name="Zaloguj">Zaloguj się</string>
+    <string name="ButtonLogin">Log in</string>
+    <string name="Remove">Remove</string>
+    <string name="Usuń">Usuń</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="WelcomeLabel">Welcome</string>
+    <string name="Witaj">Witaj</string>
+    <string name="AlarmLabel">Select the alarm methods</string>
+    <string name="WybierzAlarm">Wybierz methodę wywoływania alarmu</string>
+    <string name="BoxShaking">Shaking</string>
+    <string name="Potrząsanie">Potrząsanie</string>
+    <string name="BoxScreaming">Screaming</string>
+    <string name="Krzyk">Krzyk</string>
+    <string name="BoxPressing">Pressing</string>
+    <string name="Przycisk">Przycisk</string>
+    <string name="GuardianLabel">Guardians</string>
+    <string name="Opiekunowie">Opiekunowie</string>
+    <string name="AddGuardianLabel">Add Guardian</string>
+    <string name="DodajOpiekuna">Dodaj Opiekuna</string>
+    <string name="EmailLabel">Email</string>
+    <string name="PhoneLabel">Phone Number</string>
+    <string name="Telefon">Number Telefonu</string>
+    <string name="PhoneStartZero">0</string>
+    <string name="ButtonStart">Start</string>
+    <string name="ButtonAddGuardian">Add Guardian</string>
+    <string name="Update">Update</string>
+    <string name="Aktualizuj">Aktualizuj</string>
+    <string name="dialog_text">Do you want to add the guardian reg Id?</string>
+    <string name="DialogPytanie">Czy chcesz dodać tego opiekuna numer Id?</string>
+    <string name="ButtonCancel">Cancel</string>
+    <string name="Anuluj">Anuluj</string>
+    <string name="ButtonAgree">Agree</string>
+    <string name="Potwierdź">Potwierdź</string>
+    <string name="Language">Language</string>
+    <string name="Język">Język</string>
+    <string name="Clear">clear preference</string>
+    <string name="Wyczyść">Wyczyść wszystkie dane</string>
+
+    <string name="kws_caption">To start demonstration say \"help\".</string>
+    <string name="menu_caption">Say \"digits\", \"forecast\" or \"phones\" to choose the grammar, language model or phonetic decoder example.</string>
+    <string name="digits_caption">To try recognition of digits: say something like \"one two three four five\".</string>
+    <string name="forecast_caption">To try recognition of a weather forecast like \"sunny spells on Wednesday\".</string>
+    <string name="phone_caption">To try phonetic recognition say anything.</string>
+</resources>

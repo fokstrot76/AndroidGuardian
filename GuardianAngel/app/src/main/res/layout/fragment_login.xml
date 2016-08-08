@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.piotr.guardianangel.LoginFragment"
+    android:background="#044218">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LoginLabel"
+        android:id="@+id/LoginLabel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textSize="35sp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LoginLabel"
+        android:layout_centerHorizontal="true"
+        android:background="#67fef2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/linearLayout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/UserLabel"
+            android:id="@+id/userLabel"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/userLogin"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PasswordLabel"
+            android:id="@+id/password"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:padding="5sp"
+            android:layout_marginBottom="5sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/passwordLogin"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:padding="5sp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonLogin"
+        android:id="@+id/buttonLogin"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_oval"
+        android:textColor="#fffefe"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_margin="30dp"
+        android:padding="20dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Clear"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Język"
+        android:id="@+id/switchLang"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:textColorHint="#f00a0a"
+        android:textOff="EN"
+        android:textOn="PL"
+        android:textColorLink="#f70a0a"
+        android:textStyle="bold"
+        android:padding="5sp" />
+</RelativeLayout>
