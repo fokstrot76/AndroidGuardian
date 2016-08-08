@@ -1,0 +1,203 @@
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/myCoordinatorLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.piotr.guardian.ManagerFragment"
+    android:background="#000000">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#12d5a8"
+        android:id="@+id/relativeLayoutButton"
+        android:layout_margin="5sp"
+        android:visibility="visible">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="@string/AddPerson"
+            android:background="#97f48b"
+            android:padding="10sp"
+            android:layout_margin="20sp"
+            android:id="@+id/buttonAddPerson" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/History"
+            android:id="@+id/historyLabel"
+            android:background="#f7f7ad"
+            android:textColor="#010101"
+            android:textSize="30sp"
+            android:layout_below="@+id/buttonAddPerson"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp" />
+        <Spinner
+            android:id="@+id/kidsHistory"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/historyLabel"
+            android:layout_centerHorizontal="true"
+            android:background="#fafa7c"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp" />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#12d5a8"
+        android:id="@+id/relativeLayoutAdd"
+        android:layout_margin="5sp"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/AddPerson"
+            android:id="@+id/AddChildLabel"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="130sp"
+            android:layout_height="wrap_content"
+            android:text="@string/Name"
+            android:id="@+id/NameLabel"
+            android:layout_below="@+id/AddChildLabel"
+            android:layout_alignParentStart="true"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:layout_margin="5sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/name"
+            android:layout_alignTop="@+id/NameLabel"
+            android:layout_alignParentEnd="true"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_toEndOf="@+id/NameLabel" />
+
+        <TextView
+            android:layout_width="130sp"
+            android:layout_height="wrap_content"
+            android:text="@string/PhoneNumber"
+            android:id="@+id/PhoneNumberLabel"
+            android:layout_below="@+id/name"
+            android:layout_alignParentStart="true"
+            android:layout_margin="5sp"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/phoneNumber"
+            android:layout_below="@+id/name"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/name"
+            android:textColor="#ffffff"
+            android:text="@string/IrishPhoneCode" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abc_searchview_description_submit"
+            android:id="@+id/buttonSubmit"
+            android:background="@drawable/button_oval"
+            android:layout_below="@+id/phoneNumber"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#1803fd"
+            android:layout_margin="10sp"
+            android:padding="10sp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="60sp"
+            android:layout_height="wrap_content"
+            android:text="@string/Cancel"
+            android:id="@+id/buttonCancel"
+            android:background="#ff0000"
+            android:textColor="#ffffff"
+            android:layout_alignTop="@+id/buttonSubmit"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="60sp"
+            android:layout_height="wrap_content"
+            android:text="@string/RegId"
+            android:id="@+id/buttonRegId"
+            android:layout_alignTop="@+id/buttonSubmit"
+            android:layout_alignParentEnd="true"
+            android:textColor="#ffffff"
+            android:background="#3257f9" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/relativeLayoutAdd"
+        android:background="#19f1e6"
+        android:layout_margin="5sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ListOfPupils"
+            android:id="@+id/ListLabel"
+            android:layout_gravity="center_horizontal"
+            android:padding="5sp"
+            android:textColor="#0c04ee"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5sp"
+            android:background="#ffffff" />
+
+    </LinearLayout>
+</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

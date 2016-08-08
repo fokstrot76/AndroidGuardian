@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Guardian</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Registration">Registration</string>
+    <string name="UserLabel">UserName</string>
+    <string name="UserHintReg">minimum 5 characters</string>
+    <string name="PasswordLabel">Password</string>
+    <string name="EmergencyLabel">Emergency Phone Contact Number</string>
+    <string name="Password2Hint">reapet password</string>
+    <string name="ButtonRegistration">Submit</string>
+    <string name="LoginLabel">Log in</string>
+    <string name="ButtonLogin">Log in</string>
+    <string name="Remove">Remove</string>
+    <string name="HintMinimumEight">minimum 8 characters</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="AddPerson">Add Person</string>
+    <string name="Name">Name</string>
+    <string name="PhoneNumber">Ph.Number</string>
+    <string name="Update">Update</string>
+    <string name="Cancel">Cancel</string>
+    <string name="RegId">Reg Id</string>
+    <string name="IrishPhoneCode">+353</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="CallEmergency">Call 112</string>
+    <string name="ListOfPupils">List of Pupils</string>
+    <string name="History">History</string>
+    <string name="Display">Display</string>
+</resources>
